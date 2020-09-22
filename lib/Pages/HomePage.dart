@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> {
           child: Stack(
             children: [
               Container(
+                height: MediaQuery.of(context).size.height,
                 child: Image(
                   image: AssetImage('images/sun.jpg'),
                   fit: BoxFit.cover,
